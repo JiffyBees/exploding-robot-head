@@ -31,7 +31,7 @@ body {
 
 .robot-brain {
   position: absolute;
-  right: 47%;
+  right: 48.1%;
   top: 50px;
   width: 46px;
 }
@@ -53,9 +53,15 @@ body {
 }
 
 .banner:hover .robot-head-right {
-  left: 55%;
+  left: 58%;
+  top: -10px;
 }
 
 .banner:hover .robot-head-left {
-  right: 55%;
+  right: 58%;
+  top: -10px;
+}
+
+.banner:hover .robot-brain {
+  top: -1%;
 }
